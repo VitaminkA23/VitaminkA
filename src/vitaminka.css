@@ -1,0 +1,13 @@
+.table {
+    background-image: url("./europe.jpg");
+    background-size: cover;
+    width: 100%;
+
+}
+.text{
+    background-image: url("./flower.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+
+}
