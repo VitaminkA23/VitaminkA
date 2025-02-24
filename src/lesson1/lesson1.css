@@ -1,0 +1,60 @@
+
+.table {
+    background-image: url("./europe.jpg");
+    background-size: cover;
+    width: 100%;
+
+}
+.text{
+    background-image: url("./flower.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+
+}
+.text2{
+    background-color: seagreen;
+    background-size: cover;
+    width: 800px;
+    height: 50px;
+}
+
+#heart{
+    background-image: url("./heart.jpg");
+    text-align: right;
+
+
+}
+
+.text3{
+    text-align: center;
+}
+
+.table2{
+    background-color: wheat;
+    width: 600px;
+    height: 300px;
+    text-align: right;
+}
+.sticker{
+    background-image: url("./Pretty.jpg");
+    background-size: 200px;
+    width: 400px;
+    height: 200px;
+    background-repeat: repeat;
+
+}
+.sticker2{
+    background-image: url("./flowers.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    text-align: right;
+    color: white;
+}
+.sticker3{
+    background-image: url("./flowers.jpg");
+    vertical-align: top;
+    text-align: left;
+    color: white;
+}
