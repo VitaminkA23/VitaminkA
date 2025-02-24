@@ -1,13 +1,14 @@
 import React from 'react';
-import './vitaminka.css'
-const App = () => {
+import './lesson1.css'
+import ReactDOM from "react-dom/client";
+const Lesson1 = () => {
     return (
-      <table className="table" cellPadding="10">
+      <table className={"table"} cellPadding="10">
           <tr>
               <td>
                   <table>
                       <tr>
-                          <td className="text">
+                          <td className={"table1"}>
                               <p>
                               It is a long established fact that a reader will be distracted by the readable content of
                               a page when looking at its layout. The point of using Lorem Ipsum is that it has a
@@ -27,8 +28,8 @@ const App = () => {
               <td>
                  <table align="center">
                      <tr>
-                         <td className="text2" align="center" id={"heart"}>
-                             <h2>Lorem Lorem!!!</h2>
+                         <td className={"table2"} id={"heart"}>
+                             <h2 className={"color"}> Lorem Lorem!!!</h2>
                              <p>
                                  It is a long established fact that a reader will be distracted by the readable content
                                  of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
@@ -46,15 +47,15 @@ const App = () => {
           </tr>
           <tr>
               <td>
-                  <table className="table2" align="right">
+                  <table className={"table3"} align={"right"}>
                       <tr>
-                          <td className="sticker" colSpan="2"></td>
+                          <td colSpan={"2"} className={"sticker1"}></td>
                       </tr>
                       <tr>
-                          <td className="sticker2">
+                          <td className={"sticker2"} id={"lorem1"}>
                               Lorem
                           </td>
-                          <td className="sticker3">
+                          <td className={"sticker3"} id={"lorem"}>
                               Lorem!!!
                           </td>
                       </tr>
@@ -65,4 +66,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Lesson1;

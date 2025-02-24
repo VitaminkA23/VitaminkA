@@ -1,60 +1,67 @@
-
-.table {
-    background-image: url("./europe.jpg");
-    background-size: cover;
+.table{
+    background: purple;
     width: 100%;
 
 }
-.text{
-    background-image: url("./flower.jpg");
-    background-size: cover;
+.table1{
+    background-image: url("../assets/images/europe.jpg");
+    background-repeat: no-repeat;
     width: 400px;
     height: 200px;
-
-}
-.text2{
-    background-color: seagreen;
-    background-size: cover;
-    width: 800px;
-    height: 50px;
-}
-
-#heart{
-    background-image: url("./heart.jpg");
-    text-align: right;
-
-
-}
-
-.text3{
-    text-align: center;
 }
 
 .table2{
-    background-color: wheat;
-    width: 600px;
-    height: 300px;
-    text-align: right;
-}
-.sticker{
-    background-image: url("./Pretty.jpg");
-    background-size: 200px;
-    width: 400px;
+    background-color:plum;
+    width: 700px;
     height: 200px;
-    background-repeat: repeat;
+    text-align: center;
+    color: olive;
+}
+.color {
+    color: white;
+    text-align: center;
+}
+
+.table3{
+    background-color: skyblue;
+    width: 500px;
+    height: 300px;
+}
+.sticker1{
+    background-image: url("../assets/images/heart.jpg");
+    background-size: 170px;
+    width:300px;
+    height:200px;
+    background-repeat: repeat-x;
 
 }
 .sticker2{
-    background-image: url("./flowers.jpg");
+    background-image: url("../assets/images/heart.jpg");
     width: 50%;
+    background-size: 70px;
+    background-position: bottom right;
     background-repeat: no-repeat;
-    vertical-align: top;
-    text-align: right;
-    color: white;
 }
 .sticker3{
-    background-image: url("./flowers.jpg");
-    vertical-align: top;
+    background-image: url("../assets/images/heart.jpg");
+    background-size: 70px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+#lorem{
     text-align: left;
+    vertical-align: top;
     color: white;
+}
+#lorem1{
+    text-align:right;
+    vertical-align: top;
+    color: white;
+}
+
+#heart{
+    background-image: url("../assets/images/heart.jpg");
+    background-size: 70px;
+    background-position: top right;
+    background-repeat: no-repeat;
 }
