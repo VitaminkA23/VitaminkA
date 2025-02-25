@@ -1,6 +1,5 @@
 import React from 'react';
-import './lesson1.css'
-import ReactDOM from "react-dom/client";
+
 const Lesson1 = () => {
     return (
       <table className={"table"} cellPadding="10">
@@ -28,7 +27,7 @@ const Lesson1 = () => {
               <td>
                  <table align="center">
                      <tr>
-                         <td className={"table2"} id={"heart"}>
+                         <td className={"table2"} id={"heart"} style={{width: '1000px'}}>
                              <h2 className={"color"}> Lorem Lorem!!!</h2>
                              <p>
                                  It is a long established fact that a reader will be distracted by the readable content
@@ -55,7 +54,7 @@ const Lesson1 = () => {
                           <td className={"sticker2"} id={"lorem1"}>
                               Lorem
                           </td>
-                          <td className={"sticker3"} id={"lorem"}>
+                          <td className={"sticker2"} id={"lorem"}>
                               Lorem!!!
                           </td>
                       </tr>

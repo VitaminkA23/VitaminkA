@@ -1,5 +1,3 @@
-import './lesson2.css'
-
 const Lesson2 = () => {
     return (
         <table className={"table"} cellPadding={"3"} cellSpacing={"3"}>
@@ -135,18 +133,16 @@ const Lesson2 = () => {
                                        <a href="https://www.youtube.com/" target={'_blank'} id={'link3'}>
                                            Happy Day
                                        </a>
-                                   </td>
-                                   <td>
+
                                        <a href="https://www.youtube.com/" target={'_blank'} id={'link3'}>
                                            Happy life
                                        </a>
-                                   </td>
-                                   <td>
+
                                        <a href="https://www.youtube.com/" target={'_blank'} id={'link3'}>
                                            Be Happy
                                        </a>
-                                   </td>
-                                   <td>
+
+
                                        <a href="https://www.youtube.com/" target={'_blank'} id={'link3'}>
                                            Dont Worry
                                        </a>

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router";
 import Lesson1 from "./lesson1/lesson1";
 import Lesson2 from "./lesson2/lesson2";
+import Lesson3 from "./lesson3/lesson3";
 
 const Routing = () => {
     return (
@@ -10,6 +11,7 @@ const Routing = () => {
                 <Routes>
                     <Route path="/" element={<Lesson1 />} />
                     <Route path="/lesson2" element={<Lesson2 />} />
+                    <Route path="/lesson3" element={<Lesson3/>} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -12,10 +12,15 @@
 
 .table2{
     background-color:plum;
-    width: 700px;
+    width: 700px !important;
     height: 200px;
     text-align: center;
     color: olive;
+
+    background-image: url("../assets/images/heart.jpg");
+    background-size: 70px;
+    background-position: top right;
+    background-repeat: no-repeat;
 }
 .color {
     color: white;
@@ -39,29 +44,22 @@
     background-image: url("../assets/images/heart.jpg");
     width: 50%;
     background-size: 70px;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-}
-.sticker3{
-    background-image: url("../assets/images/heart.jpg");
-    background-size: 70px;
-    background-position: bottom left;
     background-repeat: no-repeat;
 }
 #lorem{
     text-align: left;
     vertical-align: top;
     color: white;
+    background-position: bottom left;
 }
 #lorem1{
     text-align:right;
     vertical-align: top;
     color: white;
+    background-position: bottom right;
+
 }
 
 #heart{
-    background-image: url("../assets/images/heart.jpg");
-    background-size: 70px;
-    background-position: top right;
-    background-repeat: no-repeat;
+    width: 800px;
 }
