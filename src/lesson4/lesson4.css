@@ -1,0 +1,19 @@
+.back{
+    background-color: maroon;
+    background-position: center;
+    width: 600px;
+}
+.back2{
+    background-color: blanchedalmond;
+    background-position: center;
+    width: 500px;
+    justify-content: space-around;
+
+
+
+}
+.divan{
+    display: flex;
+    flex-direction: column;
+
+}
