@@ -8,34 +8,38 @@ const Lesson4 = () => {
             <div className="divan">
                 First Name
                 <div>
-                <input type={"text"}/>
+                    <input type={"text"} placeholder={"First Name"} />
                 </div>
             </div>
             <div className="divan">
                 Last Name
                 <div>
-                <input type={"text"}/>
+                     <input type={"text"} placeholder={"Last Name"}/>
                 </div>
             </div>
             <div className={"divan"}>
-                Password
+                Passwoord
                 <div>
-                <input type={"password"}/>
+                     <input type={"password"} placeholder={"Password"}/>
                 </div>
             </div>
             <div className={"divan"}>
                 Yes or No?
                 <div>
-                Yes <input type={"radio"} name={"no"} value={"yes"} id={"Yes"}/>
-                No <input type={"radio"} name={"no"} value={"no"} id={"No"}/>
+                    <label className={"yes"}>
+                     Yes <input type={"radio"} name={"no"} value={"yes"} id={"Yes"}/>
+                     No <input type={"radio"} name={"no"} value={"no"} id={"No"}/>
+                    </label>
                 </div>
             </div>
             <div className={"divan"}>
                 No or Yes?
                 <div>
-                Yes <input type={"checkbox"} name={"no"} />
-                No <input type={"checkbox"} name={"yes"} />
-                Maybe <input type={"checkbox"} name={"maybe"} />
+                    <label className={"yes"}>
+                    Yes <input type={"checkbox"} name={"no"} />
+                    No <input type={"checkbox"} name={"yes"} />
+                    Maybe <input type={"checkbox"} name={"maybe"}/>
+                    </label>
                 </div>
             </div>
             <div className={"divan"}>

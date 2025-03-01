@@ -1,5 +1,5 @@
 import React from 'react';
-import './lesson5.css'
+// import './lesson5.css'
 const Lesson5 = () => {
     return (
         <div>
@@ -30,21 +30,27 @@ const Lesson5 = () => {
                     section 1.10.32.
                 </div>
             </div>
-            <div className={"divan2"}>
-                <div>
+            <div className="divan2">
+                <div className={"divanik"}>
                     <div className="bazkator"></div>
                     <div className="bazkator2">
+                        <p>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old. Richard ,
                         a Latin professor at Sydney College in Virginia,
+                        </p>
+                        <input type={"button"} value={"Read More"} className={"read"}/>
                     </div>
                 </div>
-                <div>
+                <div className={"divanik"}>
                     <div className="bazkator"></div>
                     <div className="bazkator2">
+                        <p>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old. Richard ,
                         a Latin professor at Sydney College in Virginia,
+                        </p>
+                        <input type={"button"} value={"Read More"} className={"read"}/>
                     </div>
                 </div>
             </div>

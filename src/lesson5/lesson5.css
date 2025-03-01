@@ -21,9 +21,14 @@ body{
 }
 
 .ulik{
-    margin: 30px;
-    padding: 30px;
-
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input{
+    padding: 10px;
 }
 .divanMec{
     background-position:center;
@@ -33,7 +38,6 @@ body{
 
 .divan2{
     background-color: dimgrey;
-    background-position:center;
     margin:50px;
     width: 700px;
     height: 300px;
@@ -44,18 +48,31 @@ body{
 }
 
 .bazkator{
-    background-color: white;
+    background-image: url("../assets/images/europe.jpg");
+    background-size: cover;
     width: 100px;
     height: 100px;
+    margin:10px;
     text-align: center;
-    justify-content: center;
-
+    display: flex;
 
 }
 .bazkator2{
     width: 400px;
     background-position:center;
     margin: 5px;
-    text-align: center;
+
+}
+
+.divanik{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+}
+.read{
+    background-color:green;
+    float: left;
+    color: white;
 
 }

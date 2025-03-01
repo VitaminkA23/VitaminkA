@@ -2,11 +2,13 @@
     background-color: maroon;
     background-position: center;
     width: 600px;
+
+    padding: 20px;
 }
 .back2{
     background-color: blanchedalmond;
     background-position: center;
-    width: 500px;
+    width: 400px;
     justify-content: space-around;
 
 
@@ -14,6 +16,14 @@
 }
 .divan{
     display: flex;
-    flex-direction: column;
+    gap: 100px;
+    margin: 30px;
+    padding: 5px;
+    text-decoration: maroon;
+    text-decoration: underline;
+    width: 400px;
 
+}
+.yes{
+    color: orange;
 }
