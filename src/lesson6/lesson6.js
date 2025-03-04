@@ -1,5 +1,5 @@
 import React from 'react';
-import './lesson6.css';
+// import './lesson6.css';
 import ReactDOM from "react-dom/client";
 const Lesson6 = () => {
     return (
