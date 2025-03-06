@@ -1,4 +1,4 @@
-import React from 'react';
+import nReact from 'react';
 import { BrowserRouter, Routes, Route } from  "react-router";
 import Lesson1 from "./lesson1/lesson1";
 import Lesson2 from "./lesson2/lesson2";
@@ -7,6 +7,8 @@ import Lesson4 from "./lesson4/lesson4";
 import Lesson5 from "./lesson5/lesson5";
 import Lesson6 from "./lesson6/lesson6";
 import Lesson7 from "./lesson7/lesson7";
+import Lesson8 from "./lesson8/lesson8";
+import Lesson9 from "./lesson9/lesson9";
 
 
 const Routing = () => {
@@ -22,6 +24,9 @@ const Routing = () => {
                     <Route path="/lesson6" element={<Lesson6/>} />
                     <Route path="/lesson6" element={<Lesson6/>} />
                     <Route path="/lesson7" element={<Lesson7/>} />
+                    <Route path="/lesson8" element={<Lesson8/>} />
+                    <Route path="/lesson9" element={<Lesson9/>} />
+
                 </Routes>
             </BrowserRouter>
         </div>
