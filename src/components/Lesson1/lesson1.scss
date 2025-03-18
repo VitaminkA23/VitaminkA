@@ -1,0 +1,11 @@
+.lesson1{
+  background-color: #474747;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: calc(100vh - 103px);
+  width: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,42 @@
+.componentP{
+  width: 700px;
+  height: 200px;
+  background-color: #bd87aa;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .navak{
+    display: flex;
+    gap: 20px;
+    background-color: #edba88;
+    width: 550px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .div{
+    transition: 0.5s;
+  }
+  div:hover{
+    color: #bd87aa;
+  }
+  .navak2 {
+    display: flex;
+    gap: 10px;
+    background-color: #edba88;
+    width: 220px;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 3px;
+  }
+  .div2{
+    transition: 0.5s;
+    border-right: 1px solid black;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
