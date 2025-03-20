@@ -21,9 +21,13 @@ header{
       background-color: black;
       color: darkgray;
       display: flex;
+      .dropdown{
+        display: flex;
+      }
     }
 
     .dropdown {
+
       flex-direction: column;
       gap: 5px;
       position: absolute;
