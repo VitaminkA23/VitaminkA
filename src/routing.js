@@ -5,7 +5,9 @@ import Positions from "./pages/Positions";
 import TariffPage from "./pages/TariffPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Lup from "./components/Lup/lup";
+import Lup4 from "./components/Lup4/lup4";
+import DropDown from "./components/Dropdown/DropDown";
+import VitaminA from "./pages/VitaminA";
 
 
 const Routing = () => {
@@ -17,7 +19,9 @@ const Routing = () => {
                     <Route path="/" element={<HomePage/>} />
                     <Route path="/position" element={<Positions/>} />
                     <Route path="/tariff" element={<TariffPage/>} />
-                    <Route path="/lup" element={<Lup/>} />
+                    <Route path="/vitamin" element={<VitaminA/>} />
+                    <Route path="/lup" element={<Lup4/>} />
+                    <Route path="/dropdown" element={<DropDown/>} />
                 </Routes>
                 <Footer/>
             </BrowserRouter>

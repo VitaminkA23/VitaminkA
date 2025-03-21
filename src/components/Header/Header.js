@@ -14,8 +14,7 @@ const Header = () => {
                             <div className={'dropdown'}>
                                 <Link className={'dropLink'} to='/position'> Lesson 1</Link>
                                 <Link className={'dropLink'} to='/tariff'> Lesson 2</Link>
-                                <Link className={'dropLink'} to='/'> Lesson 3</Link>
-                                <Link className={'dropLink'} to='#'> Lesson 3</Link>
+                                <Link className={'dropLink'} to='/vitamin'> Lesson 3</Link>
                             </div>
                         </Link>
                     </li>
