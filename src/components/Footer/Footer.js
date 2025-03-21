@@ -3,7 +3,7 @@ import './footer.scss';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className={'privetErexeq'}>
             All rights reserved &copy; 2023
         </footer>
     );
