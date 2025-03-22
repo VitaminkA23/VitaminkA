@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Routes } from  "react-router";
+import {BrowserRouter, Route, Routes} from "react-router";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import ResponsivePage from "./pages/ResponsivePage";
+import VitaminLess1 from "./pages/VitaminLess1";
 
 
 const Routing = () => {
@@ -10,7 +12,8 @@ const Routing = () => {
             <BrowserRouter>
                 <Header/>
                 <Routes>
-                    {/*<Route path="/" element={<HomePage/>} />*/}
+                    <Route path="/" element={<ResponsivePage />} />
+                    <Route path="/vitamin" element={<VitaminLess1/>} />
                 </Routes>
                 <Footer/>
             </BrowserRouter>
