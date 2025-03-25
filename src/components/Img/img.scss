@@ -4,3 +4,8 @@
   object-fit: cover;
   object-position: top;
 }
+.responsive{
+  @media only screen and (max-width: 707px) {
+    display: flex;
+  }
+}

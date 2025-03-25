@@ -8,31 +8,21 @@ const Nav = () => {
            <div id="border">
                <img className="home" name="home" src={home} alt={"Home"} />
            </div>
-           <div className="border">
-               <a className="touch" href={home}>
+               <a className="touch" href={'/'}>
                    ABOUT US
                </a>
-           </div>
-           <div className="border">
-               <a className="touch" href={home}>
+               <a className="touch" href={'/'}>
                    GALLERY
                </a>
-           </div>
-           <div className="border">
-               <a className="touch" href={home}>
+               <a className="touch" href={'/'}>
                    EVENTS
                </a>
-           </div>
-           <div className="border">
-               <a className="touch" href={home}>
+               <a className="touch" href={'/'}>
                    BLOG
                </a>
-           </div>
-            <div>
-                <a className="touch" href={home}>
+                <a className="touch" href={'/'}>
                     CONTACTS
                 </a>
-            </div>
         </div>
     );
 };

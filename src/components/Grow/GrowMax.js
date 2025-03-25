@@ -4,6 +4,7 @@ import red from "../../assets/images/lo.png";
 import fb from "../../assets/images/fb.jpg";
 import insta from "../../assets/images/insta.png";
 import telegram from "../../assets/images/telegram.png";
+import IMG from "../../assets/images/IMG_1538.PNG";
 
 
 const GrowMax = () => {
@@ -18,6 +19,7 @@ const GrowMax = () => {
                 <img className="media" src={insta} alt='GrowMax' />
                 <img className="media" src={telegram} alt='GrowMax' />
             </div>
+            <img className="menu" src={IMG} alt='GrowMax' />
         </div>
     );
 };

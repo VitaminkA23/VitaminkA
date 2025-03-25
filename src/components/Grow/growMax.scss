@@ -1,10 +1,15 @@
 .header{
-  height:50px;
   display: flex;
   justify-content:space-between;
   align-items: center;
   font-size: 40px;
-  font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS", cursive;
+  padding: 5px;
+  @media only screen and (max-width: 718px) {
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+  }
 }
 .logo{
   width:50px;
@@ -19,4 +24,14 @@
 .media{
   width:30px;
   height: 30px;
+}
+
+.menu{
+  width:50px;
+  height: 50px;
+  display: none;
+  margin-top: 10px;
+  @media only screen and (max-width: 707px) {
+    display: flex;
+  }
 }

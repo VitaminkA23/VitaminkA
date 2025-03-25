@@ -4,7 +4,7 @@ import red from "../../assets/images/red.jpg";
 
 const Img = () => {
     return (
-        <div>
+        <div className="responsive">
             <img className="img" src={red} alt="Red Image" />
         </div>
     );

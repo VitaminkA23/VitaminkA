@@ -10,7 +10,7 @@ import More from "../More/More";
 const Lesson1 = () => {
     return (
         <div className='lesson1'>
-            <div>
+            <div className='container1'>
                 <GrowMax />
                 <Nav/>
                 <Img/>

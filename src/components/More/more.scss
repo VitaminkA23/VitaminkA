@@ -2,6 +2,12 @@
   margin-top:10px;
   display:flex;
   gap: 10px;
+  width: 100%;
+  @media only screen and (max-width: 718px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .images{
   width: 100%;
@@ -12,7 +18,6 @@
   display:flex;
   flex-direction: column;
   background-color: #732424;
-  width: 188px;
   gap: 10px;
 }
 .info{
